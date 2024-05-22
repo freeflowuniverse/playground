@@ -36,13 +36,13 @@ const ExampleDocumentsDropdown: React.FC<IProps> = ({ examples, onChange }) => {
 
   return (
     <>
-      <Tooltip title={"Example OpenRPC Documents"}>
+      <Tooltip title={"Actor OpenRPC Documents"}>
         <Button
           onClick={handleClick}
           variant="outlined"
           endIcon={<DropdownIcon />}
           style={{ height: "38px", fontSize: "11px", marginLeft: "10px" }}
-        >examples</Button>
+        >actors</Button>
       </Tooltip>
       <Menu
         id="simple-menu"
